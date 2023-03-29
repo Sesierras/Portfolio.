@@ -1,244 +1,149 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1A637E&height=120&section=header&animation=twinkling"/>
 <h1 align="center">Hi 👋, I'm Sierra</h1>
 
-Hi this is my Portfolio- Visual themes and Responsive Desing for Astro framework.
-
-## Demo
-
-View a live demo of the [Astro Modern Personal Website](https://astro-modern-personal-website.netlify.app/)
-
-## Installation
-
-Run the following command in your terminal
-
-```bash
-npm install
-```
-
-Once the packages are installed you are ready to run astro. Astro comes with a built-in development server that has everything you need for project development. The astro dev command will start the local development server so that you can see your new website in action for the very first time.
-
-```bash
-npm run dev
-```
-
-## Tech Stack
-
-- [Astro](https://astro.build)
-- [tailwindcss](https://tailwindcss.com/)
-- [DaisyUI](https://daisyui.com/)
-
-## Project Strucutre
-
-```php
-├── src/
-│   ├── components/
-│   │   ├── cs/
-│   │   │   ├── TimeLine
-│   │   ├── BaseHead.astro
-│   │   ├── Card.astro
-│   │   ├── Footer.astro
-│   │   ├── Header.astro
-│   │   └── HorizontalCard.jsx
-│   │   └── SideBar.jsx
-│   ├── content/
-│   │   ├── blog/
-│   │   │   ├── post1.md
-│   │   │   ├── post2.md
-│   │   │   └── post3.md
-│   │   ├── store/
-│   │   │   ├── item1.md
-│   │   │   ├── item2.md
-│   ├── layouts/
-│   │   └── BaseLayout.astro
-│   │   └── PostLayout.astro
-│   └── pages/
-│   │   ├── blog/
-│   │   │   ├── [...page].astro
-│   │   │   ├── [slug].astro
-│   │   └── cv.astro
-│   │   └── index.astro
-│   │   └── projects.astro
-│   │   └── rss.xml.js
-│   └── styles/
-│       └── global.css
-├── public/
-│   ├── favicon.svg
-│   └── social-image.png
-│   └── sprofile.jpg
-│   └── social_img.webp
-├── astro.config.mjs
-├── tailwind.config.cjs
-├── package.json
-└── tsconfig.json
-```
-
-### Components usage
-
-#### Layout Components
-
-The `BaseHead`, `Footer`, `Header` and `SideBar` components are already included in the layout sistem. To change the website content you can edit the content of this components.
-
-##### SideBar
-
-In the Sidebar you can change the links to all your website pages.
-
-You can change your avatar shape using [mask classes](https://daisyui.com/components/mask/).
-
-The used social-icons are SVG form [BoxIcons](https://boxicons.com/) pack.
-
-**Note**: In order to change the sidebar menu's active item style, look for the `activeClass` constant and change its value to your desired style (e.g. `active` for the primary colour).
-
-#### TimeLine
-
-The timeline components are used to conform the CV.
-
-```html
-<div class="time-line-container">
-  <TimeLineElement
-    title="Element Title"
-    subtitle="Subtitle"
-    desc="Description"
-  />
-  ...
+<div align="center">
+  <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+    <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="300" style="margin-right: 80px; margin-bottom: 70px; margin-left: 100px;">
+    <div style="position: relative;">
+      <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=30&color=C1FFF6&center=true&width=435&vCenter=true&lines=Hi+there%2C+I'm+Sierra;%0AFull-Stack+Developer;%0AData+Analyst;%0AData+Science+Enthusiast;%0AArt+Lover;%0ABiologist;%0AOpen+source+enthusiast;%0AIntroverted;%0AVegetarian;%0ADog+lover;%0ALinux+enthusiast;%0ACourse+fanatic;%0APhilosophy+lover;%0ABotanist;%0APlant+lord;%0A;%0AFeminist" alt="Typing SVG" style="position: absolute; top: 50%; left: 100px; color: blue;">
+    </div>
+    <div style="position: relative;">
+     <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=30&color=00BFFF&center=true&width=435&vCenter=true&lines=Hi+there%2C+I'm+Sierra;%0AFull-Stack+Developer;%0AUX/UI+Design+Student;%0ADog+coach;%0AArt+Enthusiast;%0ALanguage+Lover;%0AFuture+UX/UI+Designer;%0ABotany+student;%0AYoga+teacher;Hi+there%2C+I'm+Sierra; %0ANonbinary;%0ANeurodivergent+%F0%9F%A6%93" alt="Typing SVG" style="position: absolute; top: 50%; left: 100px; color: blue; animation-duration: 10s;">
+    </div>
+  </div>
 </div>
+
+<h3 align="center"> Contact me </h3>
+  </a>
+</div>
+</div>
+<p align="center">
+<p align='center'>
+<a href="https://www.linkedin.com/in/sesierras"><img height="40" alt="LinkedIn" title="LinkedIn" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" target="_blank">
+</a>
+<a href="https://open.spotify.com/user/2147jkds6pjf5qdcd3dm7qika?si=0696ed7949fc40fe"><img height="40" src="https://www.vectorlogo.zone/logos/spotify/spotify-icon.svg" title="Spotify-Sesierras" target="_blank">
+<a href="https://soundcloud.com/sebastian-sierra-879410625"><img height="40" src="https://www.vectorlogo.zone/logos/soundcloud/soundcloud-icon.svg" title="SoundCloud-Sesierras" target="_blank"></a>
+   </a>
+  <a href="mailto:sesierras@unal.edu.co"><img alt="gmail-Sesierras" title="Gmail" height="40" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" target="_blank">
+  </a>
+
+<a href="https://api.whatsapp.com/send?phone=573193197976" alt="WhatsApp-Sesierras" title="WhatsApp" target="_blank">
+   <img height="40" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-square2-512.png" style="background-color: transparent;">
+</a>
+  </a>
+  <div>
+    <div align="center">
+      <h3> ✌ Full stack Developer | 👾 UX/UI Enthusiast | 🐸 Colombia </h3>
+    </div>
+    <div align="center">
+      <p>🔬 Biologist | 🌿 Botanist | 🌄 Lover of nature | 🧠 Philosophy Enthusiast</p>
+  </div>
+      </div>
+
+
+<h3 align="center"> About me </h3>
+
+
+
+<br />
+    <img src="./assets/avatar.6782d1566507d9b0f287.png" width="350" align='left' style="margin-left: 50px;" alt="Avatar-Sierra">
+
+```python
+# Public Information
+print("<h2> Public Information </h2>\n")
+print("Check out my portfolio!\n")
+
+# Personal Information
+name = "Sierra Sebastian"
+age =  f(x) = 3x^3 + 2x^2 - 5x + 4
+location = "Bogota  - DC, COL"
+university = "National University of Colombia"
+degree = "Biology & Chemestry"
+
+# Skills
+skills = ["ReactJS", "NextJS", "NodeJS", "JavaScript", "TypeScript", "MySQL", "HTML", "CSS", "Git", "GitHub", "MongoDB"]
+print(f"With a degree in {degree}, I am focused on Frontend development, with experience in: {', '.join(skills)}.\n")
+
+# Goals
+print("I am always committed and seeking new knowledge and constant growth ;)")
+
+# Joke
+print("\nWhy was the computer cold? It left its Windows open!")
+
+# Astral Card
+def astral_card(name):
+    from random import randint
+    traits = ["courageous", "creative", "adventurous", "intuitive", "generous", "compassionate", "romantic", "optimistic", "reliable", "charismatic"]
+    return f"{name}'s astral card shows that they are a {traits[randint(0, 9)]} person."
+
+print(astral_card(name))
 ```
 
-#### Card & HorizontalCard
 
-```html
-<HorizontalCard title="Card Title" img="imge_url" desc="Description" url="Link
-URL" target="Optional link target (_blank default)" badge="Optional badge"
-tags={['Array','of','tags']} />
-```
-
-#### HorizontalCard Shop Item
-
-This compoenet is already included in the Store layout of the template. In case you want to use it in other place this are the props.
-
-```html
-<HorizontalShopItem
-  title="Item Title"
-  img="imge_url"
-  desc="Item description"
-  pricing="current_price"
-  oldPricing="old_price"
-  checkoutUrl="external store checkout url"
-  badge="Optional badge"
-  details="true"
-  url="item details url"
-  custom_link="Custom link url"
-  custom_link_label="Cutom link btn label"
-  target="Optional link target (_self default)"
-/>
-```
-
-### Layouts
-
-Include `BaseLayout` in each page you add and `PostLayout` to your post pages.
-
-### Content
-
-You can add a [content collection](https://docs.astro.build/en/guides/content-collections/) in `/content/' folder, you will need add it at config.ts.
-
-#### config.ts
-
-Where you need to define your content collections, we define our content schemas too.
-
-#### Blog
-
-Add your `md` blog post in the `/content/blog/` folder.
-
-##### Post format
-
-Add code with this format in the top of each post file.
-
-```
----
-title: "Post Title"
-description: "Description"
-pubDate: "Post date format(Sep 10 2022)"
-heroImage: "Post Hero Image URL"
----
-```
-
-### Pages
-
-#### Blog
-
-Blog uses Astro's content collection to query post's `md`.
-
-##### [page].astro
-
-The `[page].astro` is the route to work with the paginated post list. You can change there the number of items listed for each page and the pagination button labels.
-
-##### [slug].astro
-
-The `[slug].astro` is the base route for every blog post, you can customize the page layout or behaviour, by default uses `content/blog` for content collection and `PostLayout` as layout.
-
-#### Shop
-
-Add your `md` item in the `/pages/shop/` folder.
-
-##### [page].astro
-
-The `[page].astro` is the route to work with the paginated item list. You can change there the number of items listed for each page and the pagination button labels. The shop will render all `.md` files you incle inside this folder.
-
-##### Item format
-
-Add code with this format in the top of each item file.
-
-```js
----
-title: "Demo Item 1"
-description: "Item description"
-heroImage: "Item img url"
-details: true // show or hide details btn
-custom_link_label: "Custom btn link label"
-custom_link: "Custom btn link"
-pubDate: "Sep 15 2022"
-pricing: "$15"
-oldPricing: "$25.5"
-badge: "Featured"
-checkoutUrl: "https://checkouturl.com/"
----
-```
-
-#### Static pages
-
-The other pages inlcuded in the template are static pages. The `index` page belong to the root page. You can add your pages directly in the `/pages` folder and then add a link to that pages in the `sidebar` component.
-
-Feel free to modify the content included in the pages that the template contains or add the ones you need.
-
-### Theming
-
-For change the template theme change the `data-theme` atribute of the `<html>` tag in `BaseLayout.astro` file.
-
-You can chose among 30 themes available or create your custom theme. See themes available [here](https://daisyui.com/docs/themes/).
-
-## Sitemap
-
-The Sitemap is generated automatically when you build your website in the root of the domain. Please update the `robots.txt` file in the public folder with your site name URL for the Sitemap.
-
-## Deploy
-
-You can deploy your site on your favorite static hosting service such as Vercel, Netlify, GitHub Pages, etc.
-
-The configuration for the deployment varies depending on the platform where you are going to do it. See the [official Astro information](https://docs.astro.build/en/guides/deploy/) to deploy your website.
-
-> **⚠️ CAUTION** </br>
-> The Blog pagination of this template is implemented using dynamic route parameters in its filename and for now this format is incompatible with SSR deploy configs, so please use the default static deploy options for your deployments.
-
-## Contributing
-
-Suggestions and pull requests are welcomed! Feel free to open a discussion or an issue for a new feature request or bug.
-
-One of the best ways of contribute is to grab a [bug report or feature suggestion](https://github.com/manuelernestog/astro-modern-personal-website/issues) that has been marked `accepted` and dig in.
-
-Please be wary of working on issues _not_ marked as `accepted`. Just because someone has created an issue doesn't mean we'll accept a pull request for it.
-
-## License
-
-Astro Modern Personal Website is licensed under the MIT license — see the [LICENSE](https://github.com/manuelernestog/astro-modern-personal-website/blob/main/LICENSE) file for details.
+<h3 align="center">Interest Languages and Tools</h3>
+<p align="center">
+  <div style="text-align: center;">
+<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.electronjs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nestjs.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg" alt="nestjs" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+<br></br>
 
 
-Made with [contrib.rocks](https://contrib.rocks).
+<h3 align="center" style="color: #8FBC8F;">Github Statistics</h3>
+ <div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=sesierras&show_icons=true&theme=gruvbox&locale=en&layout=compact" alt="sesierras" width="395"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=sesierras&show_icons=true&theme=gruvbox&locale=en&layout=compact" alt="sesierras" width="300"/>
+     <img src="https://github-readme-streak-stats.herokuapp.com/?user=sesierras&show_icons=true&theme=gruvbox&locale=en&layout=compact" alt="sesierras" width="415"/>
+</div>
+
+ <h3 align="center">Quotes & Visitors</h3>
+<table align="center">
+  <tr>
+    <td>
+      <div align="center">
+        <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark" alt="Random Quote"> 
+        <br/>
+      </div>
+    </td>
+    <td>
+      <div align="center">
+        <p><b><h3>Visitors Count</h3></b></p>
+        <p><img align="center" src="https://profile-counter.glitch.me/{Sesierras}/count.svg" /></p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+    
+
+    
+    
+    
+ <h3 align="center">Gift & Music</h3>
+<table align="center">
+  <tr>
+    <td>
+      <div align="center">
+       <img src="https://media.giphy.com/media/fXtFLN5VpWqMUt8LLG/giphy.gif" width="400">
+        <br/>
+      </div>
+    </td>
+    <td>
+      <div align="center">
+        <a href="https://spotify-github-profile.vercel.app/api/view?uid=31b232goahz27xcmgenhl2eqfbcy&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=true"><img src="https://spotify-github-profile.vercel.app/api/view?uid=31b232goahz27xcmgenhl2eqfbcy&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=true" alt="spotify-github-profile"></a>
+        <br>
+        <a href="https://GitHub.com/sesierras/"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built with love badge"></a>
+      </div>
+    </td>
+  </tr>
+</table> 
+<p align="center">
+  <a href="#"><img src="./assets/ezgif.com-gif-maker.gif" width="300" alt="Favicon-Sierra" style="display:block; margin:0 auto; cursor:pointer;" /></a>
+</p>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1A637E&height=120&section=footer&animation=twinkling"/>
+ <h5 align="center">
+      <i>🤖 "Programming can be addictive" -Bob Carr</i>
+ </h5>
+
+
+
+
+    
