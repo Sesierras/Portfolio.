@@ -1,8 +1,7 @@
-# Astro Modern Personal Website
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1A637E&height=120&section=header&animation=twinkling"/>
+<h1 align="center">Hi 👋, I'm Sierra</h1>
 
-![Astro Modern Personal Website](public/social_img.png)
-
-Modern Personal Website Template with Project Section, CV Section, Paginated Blog, RSS Feed, SEO Friendly, Visual themes and Responsive Desing for Astro framework.
+Hi this is my Portfolio- Visual themes and Responsive Desing for Astro framework.
 
 ## Demo
 
