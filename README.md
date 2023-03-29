@@ -46,7 +46,7 @@
 
 
 <br />
-    <img src="./assets/avatar.6782d1566507d9b0f287.png" width="350" align='left' style="margin-left: 50px;" alt="Avatar-Sierra">
+    <img src="/public/avatar.png" width="350" align='left' style="margin-left: 50px;" alt="Avatar-Sierra">
 
 ```python
 # Public Information
@@ -99,7 +99,7 @@ print(astral_card(name))
   <tr>
     <td>
       <div align="center">
-        <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark" alt="Random Quote"> 
+        <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark" alt="Random Quote">
         <br/>
       </div>
     </td>
@@ -112,11 +112,11 @@ print(astral_card(name))
   </tr>
 </table>
 
-    
 
-    
-    
-    
+
+
+
+
  <h3 align="center">Gift & Music</h3>
 <table align="center">
   <tr>
@@ -134,7 +134,7 @@ print(astral_card(name))
       </div>
     </td>
   </tr>
-</table> 
+</table>
 <p align="center">
   <a href="#"><img src="./assets/ezgif.com-gif-maker.gif" width="300" alt="Favicon-Sierra" style="display:block; margin:0 auto; cursor:pointer;" /></a>
 </p>
@@ -146,4 +146,4 @@ print(astral_card(name))
 
 
 
-    
+
