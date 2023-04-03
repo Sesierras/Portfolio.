@@ -1,7 +1,0 @@
-name: SesierrasPortfolio
-type: web
-buildCommand: npm run build
-startCommand: npm run start
-routes:
-  - path: /*
-    command: npm run start
