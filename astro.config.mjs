@@ -7,7 +7,7 @@ import netlify from "@astrojs/netlify/functions";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-tailwindcss.vercel.app',
+  site: 'https://sesierras.netlify.app',
   output: 'server',
   adapter: netlify(),
   integrations: [mdx(), sitemap(), tailwind()]
