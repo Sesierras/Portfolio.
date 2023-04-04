@@ -6,12 +6,12 @@ import MyCrazyLayout from "../layouts/MycrazyLayout.astro";
 
 const posts = (await getCollection('blog')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+  );
 
-const last_posts = posts.slice(0, 3);
----
-<MyCrazyLayout>
-    <BaseLayout>
+  const last_posts = posts.slice(0, 3);
+  ---
+  <BaseLayout>
+    <MyCrazyLayout></MyCrazyLayout>
 
 
     <div class="pb-12 mt-5">
@@ -57,6 +57,4 @@ const last_posts = posts.slice(0, 3);
         <div class="divider my-0"></div>
       ))
     }
-
 </BaseLayout>
-</MyCrazyLayout>
