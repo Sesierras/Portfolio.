@@ -24,6 +24,7 @@
     "astro": "^2.1.9",
     "daisyui": "^2.27.0",
     "dayjs": "^1.11.7",
+    "theme-change": "^2.5.0",
     "undici": "^5.5.0"
   },
   "devDependencies": {
